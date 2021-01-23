@@ -47,18 +47,6 @@ GTM-PROMO
 
 CONNECT [host_port] [protocol][crlf]Host: c3cdn.ml.youngjoygame.com[crlf]X-Online-Host: c3cdn.ml.youngjoygame.com[crlf]X-Forward-Host: c3cdn.ml.youngjoygame.com[crlf]Connection: Keep-Alive[crlf][crlf]
 
-GTM-NoLOAD
-CONNECT [host_port]@aes256-ctr hmac-256[split][lf] HTTP//? 403 [lf]Host:[rotate=URL=http2.www.yallakora.com:80;xnxx.com:80;instagram.com:80[lf]
-
-http-proxy-option CUSTOM-HEADER X-Online-Host doc-10-20-docs.googleusercontent.com
-http-proxy-option CUSTOM-HEADER X-Forward-Host doc-10-20-docs.googleusercontent.com
-http-proxy-option CUSTOM-HEADER Connection Keep-Alive
-
-
-CONNECT [host_port] [protocol][crlf]Host: Data.iflix.com[crlf]X-Online-Host: Data.iflix.com[crlf]X-Forward-Host: Data.iflix.com[crlf]Connection: Keep-Alive[crlf][crlf]
-
-CONNECT [host_port] [protocol][crlf]Host: [rotate=data.iflix.com;twimg.com;doc-10-20-docs.googleusercontent.com][crlf]X-Online-Host: [rotate=data.iflix.com;twimg.com;doc-10-20-docs.googleusercontent.com][crlf]X-Forward-Host: [rotate=data.iflix.com;twimg.com;doc-10-20-docs.googleusercontent.com][crlf]Connection: Keep-Alive[crlf][crlf]
-
 
 ML10
 
@@ -70,12 +58,8 @@ CONNECT [host_port] HTTP/1.1[crlf][crlf]PUT http://video.google.com/ [protocol][
 Globe games99
 CONNECT [host_port] [protocol][crlf]Host: apps.google.com[crlf]X-Online-Host: apps.google.com[crlf]X-Forward-Host: apps.google.com[crlf]Connection: Keep-Alive[crlf][crlf]
 
-Grm no load
-CONNECT [host_port][crlf] CONNECT HTTP/1.1 [crlf]Host: updates-http.cdn-apple.com[lf]
-
 Gigastories 99 DNS
 GET http://apis.twitter.com/ HTTP/1.1[crlf]Host: apis.twitter.com[crlf]X-Online-Host: apis.twitter.com[crlf]X-Forward-Host: apis.twitter.com[crlf]Connection: Keep-Alive[crlf][crlf]CONNECT [host_port]@apis.twitter.com [protocol][crlf][crlf]
-
 
 GTM SNS WNP BYPASSED
 
@@ -109,3 +93,42 @@ SUN TU/CTU BYPASSED
 
 CONNECT https://line.naver.jp/ HTTP/1.0[crlf]Host: line.naver.jp[crlf]X-Online-Host: line.naver.jp[crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf]User-Agent: [ua][crlf][crlf][method] [host_port]@line.naver.jp [protocol][crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf]
 
+GTM-NoLOAD
+CONNECT [host_port]@aes256-ctr hmac-256[split][lf] HTTP//? 403 [lf]Host:[rotate=URL=http2.www.yallakora.com:80;xnxx.com:80;instagram.com:80[lf]
+
+http-proxy-option CUSTOM-HEADER X-Online-Host doc-10-20-docs.googleusercontent.com
+http-proxy-option CUSTOM-HEADER X-Forward-Host doc-10-20-docs.googleusercontent.com
+http-proxy-option CUSTOM-HEADER Connection Keep-Alive
+
+
+CONNECT [host_port] [protocol][crlf]Host: Data.iflix.com[crlf]X-Online-Host: Data.iflix.com[crlf]X-Forward-Host: Data.iflix.com[crlf]Connection: Keep-Alive[crlf][crlf]
+
+CONNECT [host_port] [protocol][crlf]Host: [rotate=data.iflix.com;twimg.com;doc-10-20-docs.googleusercontent.com][crlf]X-Online-Host: [rotate=data.iflix.com;twimg.com;doc-10-20-docs.googleusercontent.com][crlf]X-Forward-Host: [rotate=data.iflix.com;twimg.com;doc-10-20-docs.googleusercontent.com][crlf]Connection: Keep-Alive[crlf][crlf]
+
+CONNECT [host_port][crlf] CONNECT HTTP/1.1 [crlf]Host: updates-http.cdn-apple.com[lf]
+HTTP/1.1 200[crlf]Host: cctv.com[crlf]X-Online-Host: cctv.com[crlf]X-Forward-Host: cctv.com[crlf]Connection: Keep-Alive[crlf][crlf]
+
+CONNECT [host_port]HTTP: www.hbo.com[split][crlf]HTTP/redbull.com 443[crlf]Host:www.cbs.com[crlf][crlf]NerdyUser-PROPHIND http//9gag.com HTTP/touch.facebook.com 443[crlf]Host:cctv.com[crlf]User-Agent:[ua][crlf]Connection:Keep-Alive[crlf]Proxy-Connection:Keep-Alive[crlf]Content-Type:Application/Octet-Stream[crlf][crlf][crlf]NerdyUser11[crlf]
+
+
+
+CONNECT [host_port] HTTP:wikipedia.com[split][crlf] HTTP/2.0 200 [crlf]Host:wikipedia.com[crlf][crlf]
+
+CONNECT [host_port] HTTP1.1[split][crlf]HTTP/i.cdn.turner.com 443[crlf]Host: i.cdn.turner.com[crlf][crlf]PROPATCH http//i.cdn.turner.com HTTP/i.cdn.turner.com 443[crlf]Host:i.cdn.turner.com[crlf][crlf]
+
+
+CONNECT [host_port] PROPATCH[split][cr][lf] HTTP/1.1 200[crlf]Host:[rotate=z-my.telkomsel.com.www.xlmms.net.www.axiz.co.id.adnitro.net.sso.gelecegiyazanlar.org.ufastarvskie123.sshdb.us.e7.whatapp.net.feedup.turkcell.com.tr.console.cloud.google.com.developer.android.com.developer.google.com.developers.google.com.dl.google.com.docs.google.com.doubleclick.net.drive.google.com.encrypted-tbn3.gstatic.com.g.co.goo.gl.google.com.p42.i.instagram.com;m.instagram.com;b.i.instagram.com.exquisitefze.com.power.networksolutions.com.www.youtube.com.blog.mediafire.net.globe.mymusic.com.org.m.youtube.com.ph.safebrowsing-cache.clients.googl.comi.com.att.zteca.com.aerobrand.com.cappygaming.com.
+blog.mediafire.net.globe.mymusic.com.orggoogle.com.connect.facebook.net;b.scorecardresearch.com;static.licdn.com;jobstreet.com;mgcash.globe.co;globe.co[lf]Host:static.licdn.com;static.chartbeat.com;b.scorecardresearch.com;jobstreet.com;mgcash.globe.co;globe.cow.google.com.www.youtube.comclients.googl.comi.com.att.zteca.com.aerobrand.com.cappygaming.comdocs.google.com.doubleclick.net.drive.google.comwww.bing.com;vuclip.com;blackberry.com;www.ifeng.com;www.cabify.com;www.xvideos.com;www.grindr.com[crlf][crlf]
+
+
+CONNECT [host_port]HTTP:
+ade.googlesyndication.com[split][crlf]HTTP/
+disney.go.com
+443[crlf]Host:px.srvcs.tumblr.com[crlf]
+[crlf]Nerdy User-PROPHIND http//
+0.0.0.0.0.0.0.0.0.0.0.0.0.0.0.internet.org HTTP/
+static.twitchcdn.net
+443[crlf]Host:imgur.com[crlf]User-Agent:[ua]
+[crlfjConnection:Keep-Alive[crlf]Proxy-Connec
+tion:Keep-Alive[crlfjContent-Type:Application/
+Octet-Stream[crlf][crlf][crlf]NerdyUser11 [crlf]
