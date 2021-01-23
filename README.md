@@ -18,6 +18,8 @@ ML-10-GTM-PROMO
 
 CONNECT [host_port] [protocol][crlf]Host: m.mobilelegends.com[crlf]X-Online-Host: m.mobilelegends.com[crlf]X-Forward-Host: m.mobilelegends.com[crlf]Connection: Keep-Alive[crlf][crlf]
 
+CONNECT http://mobile.garena.my/ HTTP/1.0[crlf]Host: mobile.garena.my[crlf]X-Online-Host: mobile.garena.my[crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf][method] [host_port] [protocol][crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf]
+
 
 FB-10-GTM-PROMO
 
@@ -73,5 +75,35 @@ Gigastories 99 DNS
 GET http://apis.twitter.com/ HTTP/1.1[crlf]Host: apis.twitter.com[crlf]X-Online-Host: apis.twitter.com[crlf]X-Forward-Host: apis.twitter.com[crlf]Connection: Keep-Alive[crlf][crlf]CONNECT [host_port]@apis.twitter.com [protocol][crlf][crlf]
 
 
+GTM SNS WNP BYPASSED
 
+CONNECT [host_port] [protocol][crlf]Host: www.googleapis.com.clients3.google.com[crlf]X-Online-Host: www.googleapis.com.clients3.google.com[crlf]X-Forward-Host: www.googleapis.com.clients3.google.com[crlf]Connection: Keep-Alive[crlf][crlf]
+
+FUN ALIW BYPASSED
+
+CONNECT [host_port] [protocol][crlf]Host: www.googlevideo.com[crlf]X-Online-Host: www.googlevideo.com[crlf]X-Forward-Host: www.googlevideo.com[crlf]Connection: Keep-Alive[crlf][crlf]
+
+FB1D BYPASSED
+
+GET http://pbs.twimg.com/ HTTP/1.1[crlf]Host: pbs.twimg.com[crlf]X-Online-Host: pbs.twimg.com[crlf]X-Forward-Host: pbs.twimg.com[crlf]Connection: Keep-Alive[crlf][crlf]CONNECT [host_port]@pbs.twimg.com [protocol][crlf][crlf]
+
+GOSURF BYPASSED
+
+CONNECT [host_port] [protocol][crlf]Host: clients3.google.com[crlf]X-Online-Host: clients3.google.com[crlf]X-Forward-Host: clients3.google.com[crlf]Connection: Keep-Alive[crlf][crlf]
+
+MOBILE LEGENDS BYPASSED
+
+CONNECT [host_port] [protocol][crlf]Host: web.mobilelegends.com[crlf]X-Online-Host: web.mobilelegends.com[crlf]X-Forward-Host: web.mobilelegends.com[crlf]Connection: Keep-Alive[crlf][crlf]
+
+SMART GIGAGAMES BYPASSED
+
+POST http://mobile.garena.my/ HTTP/1.0[crlf]Host: mobile.garena.my[crlf]X-Online-Host: mobile.garena.my[crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf][method] [host_port] [protocol][crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf]
+
+SMART GIGASTORIES BYPASSED
+
+POST http://t.co/ HTTP/1.0[crlf]Host: t.co[crlf]X-Online-Host: t.co[crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf][method] [host_port]@t.co [protocol][crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf]
+
+SUN TU/CTU BYPASSED
+
+CONNECT https://line.naver.jp/ HTTP/1.0[crlf]Host: line.naver.jp[crlf]X-Online-Host: line.naver.jp[crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf]User-Agent: [ua][crlf][crlf][method] [host_port]@line.naver.jp [protocol][crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf]
 
