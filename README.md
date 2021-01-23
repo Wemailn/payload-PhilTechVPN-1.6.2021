@@ -12,7 +12,9 @@ FB10-GTM-SNS-WNP
 
 CONNECT [host_port] [protocol][crlf]Host: [rotate=m.mobilelegends.net;face.yuanzhanapp.com;c3cdn.ml.youngjoygame.com][crlf]X-Online-Host: [rotate=m.mobilelegends.net;face.yuanzhanapp.com;c3cdn.ml.youngjoygame.com][crlf]X-Forward-Host: [rotate=m.mobilelegends.net;face.yuanzhanapp.com;c3cdn.ml.youngjoygame.com][crlf]Connection: Keep-Alive[crlf][crlf]
 
+GAMETIME100
 
+CONNECT [host_port] HTTP: wwwgoogle.comofficecom[split][crlf] HTTP/1.6 200 [crlf]Host:server4-1operaminicomofficecom[crlf][crlf]
 
 ML-10-GTM-PROMO
 
