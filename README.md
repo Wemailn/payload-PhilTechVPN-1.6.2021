@@ -14,6 +14,8 @@ CONNECT [host_port] [protocol][crlf]Host: [rotate=m.mobilelegends.net;face.yuanz
 
 GAMETIME100
 
+HTTP/2.0 200 [lf]Host: mlbb.mobilelegends.com[crlf]Connection: keep-alive[crlf][crlf]
+
 CONNECT [host_port] HTTP: wwwgoogle.comofficecom[split][crlf] HTTP/1.6 200 [crlf]Host:server4-1operaminicomofficecom[crlf][crlf]
 
 ML-10-GTM-PROMO
