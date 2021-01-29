@@ -24,6 +24,10 @@ CONNECT [host_port] [protocol][crlf]Host: m.mobilelegends.com[crlf]X-Online-Host
 
 CONNECT http://mobile.garena.my/ HTTP/1.0[crlf]Host: mobile.garena.my[crlf]X-Online-Host: mobile.garena.my[crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf][method] [host_port] [protocol][crlf]Proxy-Connection: keep-alive[crlf]Connection: keep-alive[crlf][crlf]
 
+CONNECT [host_port] [protocol][crlf]Host: wildrift.leagueoflegends.com[crlf]X-Online-Host: wildrift.leagueoflegends.com[crlf]X-Forward-Host: wildrift.leagueoflegends.com[crlf]Connection: Keep-Alive[crlf][crlf]
+
+
+CONNECT [host_port] [protocol][crlf]Host: lol.garena.com[crlf]X-Online-Host: lol.garena.com[crlf]X-Forward-Host: lol.garena.com[crlf]Connection: Keep-Alive[crlf][crlf]
 
 FB-10-GTM-PROMO
 
