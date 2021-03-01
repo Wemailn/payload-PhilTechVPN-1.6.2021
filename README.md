@@ -1,7 +1,8 @@
 # payload-PhilTechVPN-1.6.2021
 
 ]
-
+FB10/ML10
+ CONNECT [host_port] [protocol][crlf]Host: [rotate=m.facebook.com;web.facebook.com;clients3.google.com;web.mobilelegends.com][crlf]X-Online-Host: [rotate=m.facebook.com;web.facebook.com;clients3.google.com;web.mobilelegends.com][crlf]X-Forward-Host: [rotate=m.facebook.com;web.facebook.com;clients3.google.com;web.mobilelegends.com][crlf]Connection: Keep-Alive[crlf][crlf]
 
 EASYSURF-GTM-PROMO
 
